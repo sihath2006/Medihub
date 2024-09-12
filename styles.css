@@ -498,10 +498,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 20px; /* Added gap for consistent spacing between branches */
 }
 
 .branch {
-    width: 45%;
+    width: 45%; /* Two branches per row on larger screens */
     background-color: white;
     margin-bottom: 20px;
     padding: 20px;
@@ -511,17 +512,19 @@ footer {
 
 .branch img {
     width: 100%;
-    height: 50vh;
+    height: 50vh; /* Maintain aspect ratio, but use 'vh' for relative height */
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
 .branch-map {
-    width: 100%;
+    width: 100%; /* Make maps responsive */
     height: auto;
     margin-top: 10px;
     border-radius: 8px;
 }
+
+
 
 /* Summary Table Section */
 .summary-table {
@@ -1569,21 +1572,8 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Responsive Footer */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .footer-section {
-        margin-bottom: 20px;
-    }
 
-    .footer-section ul {
-        text-align: center;
-    }
-}
 
 
 
