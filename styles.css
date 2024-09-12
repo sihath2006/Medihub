@@ -135,7 +135,6 @@ body{
 
 /* Main Image Section */
 .main-image-section {
-    position: relative;
     text-align: center;
     color: white;
 }
@@ -147,10 +146,6 @@ body{
 }
 
 .motto {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
